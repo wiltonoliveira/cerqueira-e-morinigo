@@ -25,67 +25,86 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   </head>
   <body>
+
     <header>
+
+      <ul class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="#">Home</a></li>
+        <li role="presentation"><a target="" href="file:///C:/Users/042131009/Desktop/portifolio/areas.html ">Contato</a></li>
+        <li role="presentation"><a href="#">Áreas</a></li>
+      </ul>
+
+
+
     <div class="header-content">
       <div class="header-content-inner shadow">
         <img class="img-icon" src="img/perfil.png" alt="Dama da Justiça">
       </div>
       <div class="header-content-inner proximo">
         <h1>Cerqueira & Morinigo</h1>
-        <h3>Advogados</h3>
+        <h3>Advogados Associados</h3>
       </div>
     </div>
     </header>
 
-    <section>
+
+    <section class="background-color">
       <div class="container">
-        <h2>Áreas de atuação</h2>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-      <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
+          <div class="row">
+            <h1 class="text-center">Áreas de Atuação</h1>
+            <hr class="light">
+          </div>
+              <div class="row">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
 
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
-      <div class="item active">
-        <img src="img/direito-civil.jpg" alt="Direito Civil" style="width:100%;">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Direito Civil</h5>
-          <p>A respeito blablalba</p>
-  </div>
-      </div>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img class="slide-itens" src="img/direito-trabalhista.jpg" alt="Direito do Trabalho">
+                <div class="carousel-caption">
+                  <h3>Direito do Trabalho</h3>
+                  <p>Defenda seus direitos na sua empresa</p>
+                </div>
+              </div>
+              <div class="item">
+                <img class="slide-itens" src="img/direito-tributario.jpg" alt="Direito Tributario">
+                <div class="carousel-caption">
+                  <h3>Direito do Trabalho</h3>
+                  <p>Defenda seus direitos na sua empresa</p>
+                </div>
+              </div>
 
-      <div class="item">
-        <img src="img/direito-trabalhista.jpg" alt="Direito Trabalhista" style="width:100%;">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Direito Trabalhista</h5>
-          <p>A respeito blablalba</p>
-      </div>
+              <div class="item">
+                <img class="slide-itens" src="img/direito-civil.jpg" alt="Direito Civil">
+                <div class="carousel-caption">
+                  <h3>Direito do Trabalho</h3>
+                  <p>Defenda seus direitos na sua empresa</p>
+                </div>
+              </div>
 
-      <div class="item">
-        <img src="img/direito-tributario.jpg" alt="Direito Tributario" style="width:100%;">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Direito Tributario</h5>
-          <p>A respeito blablalba</p>
-      </div>
-      </div>
+            </div>
 
-      <!-- Left and right controls -->
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-      </a>
-    </div>
-    </div>
+
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            </div>
+          </div>
+      </div>
     </section>
-
 
     <section>
       <div class="container">
@@ -97,33 +116,33 @@
         <div class="row">
           <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
-              <img src="img/dario.jpg" alt="...">
+              <img src="img/dario.jpg" class="tamb-img" alt="...">
               <div class="caption">
                 <h3>Dr. Dário Cerqueira Mornigo</h3>
-                <p>email:</p>
-                <p><a href="#" class="btn btn-primary" role="button">Contato</a></p>
+                <p>E-mail:</p>
+                <p><a target="_blank" href="https://www.escavador.com/sobre/10095351/dario-cerqueira-morinigo" class="btn-blue text-center btn-lg btn-block" role="button">Ver Perfil</a></p>
               </div>
             </div>
           </div>
 
           <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
-              <img src="img/ana.jpg" alt="...">
+              <img src="img/ana.jpg" class="tamb-img" alt="...">
               <div class="caption">
                 <h3>Dra. Ana Maria Cerqueira Mornigo</h3>
-                <p>email:</p>
-                <p><a href="#" class="btn btn-primary" role="button">Contato</a></p>
+                <p>E-mail:</p>
+                <p><a target="_blank" href="https://www.escavador.com/sobre/9992997/ana-maria-cerqueira-morinigo" class="btn-blue text-center btn-lg btn-block" role="button">Ver Perfil</a></p>
               </div>
             </div>
           </div>
 
           <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
-              <img src="img/wilton.jpg" alt="...">
+              <img src="img/wilton.jpg" class="tamb-img" alt="...">
               <div class="caption">
                 <h3>Dr. Wilton Silva Oliveira</h3>
-                <p>email: adv.wiltonoliveira@gmail.com</p>
-                <p><a href="#" class="btn btn-primary" role="button">Contato</a></p>
+                <p>E-mail: adv.wiltonoliveira@gmail.com</p>
+                <p><a target="_blank" href="https://www.escavador.com/sobre/16253504/wilton-silva-oliveira" class="btn-blue text-center btn-lg btn-block" role="button">Ver Perfil</a></p>
               </div>
             </div>
           </div>
@@ -132,6 +151,20 @@
 
       </div>
     </section>
+
+
+    <section>
+    <!--Google map-->
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1634.7068752862558!2d-38.51244795333031!3d-12.971205740594767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604e5d0123b1b%3A0x699b2e46ffacfce8!2sCondom%C3%ADnio+do+Edif%C3%ADcio+Paraguass!5e0!3m2!1spt-BR!2sbr!4v1532633589226" width="1580" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+   </section>
+
+   <footer>
+
+     
+
+   </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

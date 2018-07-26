@@ -90,4 +90,30 @@ section {
 hr.light {
    border-width: 4px;
    max-width: 200px;
+   color: #0E0E0E;
  }
+
+a:focus, a:hover{
+  color: white !important;
+  text-decoration: none !important;
+  background-color: #8B8B8D;
+}
+
+.btn-blue{
+  color: white;
+  background-color: #404041;
+  border-color: #404041;
+}
+
+.tamb-img {
+  width: 100%;
+  height: 360px !important;
+}
+.background-color{
+  background-color: #F2F2F4;
+}
+.slide-itens{
+  overflow: hidden !important;
+  width: 1200px !important;
+  height: 400px !important;
+}
