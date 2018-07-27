@@ -117,3 +117,41 @@ a:focus, a:hover{
   width: 1200px !important;
   height: 400px !important;
 }
+
+footer .footer-content p{
+   position: relative;
+   text-align: center;
+   padding: 100px 15px 100px;
+   width: 100%;
+ }
+
+.footer-color {
+  background-color: #51788A;
+}
+
+.navbar-expand-lg{
+  width: 200px;
+}
+
+.fundo-doutores {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('../img/salvador.jpg');
+  text-align: center;
+  color: white;
+}
+
+.margem-topo {
+  margin-top: -20px;
+}
+
+.margem-mapa {
+  margin-top: -100px;
+  margin-bottom: -105px;
+}
